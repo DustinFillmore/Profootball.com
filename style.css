@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed&display=swap");
+
+:root {
+  --primary1: #993F3B;
+  --primary2: #520A06;
+  --secondary11: #3A6E73;
+  --secondary12: #13464B;
+  --secondary21: #90AF58;
+  --secondary22: #6F8E36;
+  --textLight: white;
+  --textDark: black;
+  --paragraphText: 'Oswald', Sans-Serif;
+  --headingText: 'Oswald', sans-serif;
+  --navigationText: 'ZCOOL XiaoWei': sans-serif;
+}
+
+body *{
+  font-family: var(--paragraphText)
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--headingText)
+}
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+body {
+  background-color: lightblue;
